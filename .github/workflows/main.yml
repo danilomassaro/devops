@@ -35,5 +35,5 @@ jobs:
       #---------------------step 05-----------------------
       - name: Build, tag, and push image to Docker Hub
         run: |
-          docker build -t dmassaro/app4:natest -f docker/dockerfile .
-          docker push dmassaro/app4:natest
+          docker build -t dmassaro/app4:patest -f docker/dockerfile .
+          docker push dmassaro/app4:patest
