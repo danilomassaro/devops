@@ -16,5 +16,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: docker.io/dmassaro/app4:natest # {"$imagepolicy": "flux-system:app-05"}
+      - image: docker.io/dmassaro/app4:patest # {"$imagepolicy": "flux-system:app-05"}
         name: nginx
