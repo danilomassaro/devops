@@ -6,3 +6,5 @@ metadata:
 spec:
   interval: 1m0s
   image: docker.io/danilomassaro/app4
+  secretRef:
+    name: regcred
