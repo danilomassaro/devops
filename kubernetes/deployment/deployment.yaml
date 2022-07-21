@@ -16,5 +16,5 @@ spec:
         app: nginx
     spec:
       containers:
-        - image: nginx:alpine
+        - image: docker.io/dmassaro/app4:latest # {"$imagepolicy": "flux-system:app-05"}
           name: nginx 
