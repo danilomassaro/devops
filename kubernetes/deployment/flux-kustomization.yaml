@@ -8,6 +8,6 @@ spec:
   path: "./kubernetes/deployment/"
   sourceRef:
     kind: GitRepository
-    name: devops
+    name: flux-system
     namespace: flux-system
   prune: true

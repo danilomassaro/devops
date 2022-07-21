@@ -7,7 +7,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: devops
+    name: flux-system
   git:
     checkout:
       ref:
