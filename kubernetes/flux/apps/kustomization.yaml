@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
   # Helm Repositories
   - helmrepository.yaml
-  - ../../deployment/
+  - ../../deployment/flux-kustomization.yaml
 
   # appsmith
   # - ../../appsmith/flux/flux-kustomization.yaml
